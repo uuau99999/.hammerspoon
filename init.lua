@@ -1,5 +1,8 @@
 require("input-source")
 
+hs.hotkey.bind({ "alt" }, "A", function()
+	hs.application.launchOrFocus("Arc")
+end)
 hs.hotkey.bind({ "alt" }, "C", function()
 	hs.application.launchOrFocus("Google Chrome")
 end)

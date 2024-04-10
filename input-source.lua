@@ -17,6 +17,7 @@ local app2Ime = {
 	{ "/System/Library/CoreServices/Finder.app", "English" },
 	{ "/Applications/System Preferences.app", "English" },
 	{ "/Applications/企业微信.app", "Chinese" },
+	{ "/Applications/Arc.app", "English" },
 }
 
 function updateFocusAppInputMethod()
